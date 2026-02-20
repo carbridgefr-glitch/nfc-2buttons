@@ -14,6 +14,22 @@
     .primary{background:#111;color:#fff}
     .secondary{background:#fff;color:#111;border:2px solid #111}
     .small{font-size:13px;color:#666;margin-top:12px}
+
+    /* Διακριτικό "powered by" */
+    .brand-wrap{margin-top:16px;padding-top:12px;border-top:1px solid #eee;text-align:center}
+    .brand{font-size:12px;color:#777;line-height:1.4}
+    .brand a{
+      display:inline-block;
+      margin-top:6px;
+      font-size:12px;
+      text-decoration:none;
+      color:#111;
+      border:1px solid #ddd;
+      padding:8px 10px;
+      border-radius:999px;
+      background:#fff;
+    }
+    .brand a:hover{border-color:#bbb}
   </style>
 </head>
 <body>
@@ -22,10 +38,12 @@
       <h1>Τι θα θέλατε να κάνετε;</h1>
       <p>Πατήστε μία επιλογή:</p>
 
+      <!-- 1ο κουμπί: Site -->
       <a class="btn primary" href="https://mpouketoballoon.gr/" rel="noopener">
-        🍔 Επισκεφθείτε το site
+        Επισκεφθείτε το site
       </a>
 
+      <!-- 2ο κουμπί: Google Review -->
       <a class="btn secondary" href="https://search.google.com/local/writereview?placeid=ChIJN0FDPF03XhMRCH8UQaSICCE" rel="noopener">
         ⭐ Αφήστε κριτική στο Google
       </a>
@@ -33,6 +51,18 @@
       <div class="small">
         Αν ζητήσει σύνδεση σε Google, είναι φυσιολογικό.
       </div>
+
+      <!-- Διακριτικό branding -->
+      <div class="brand-wrap">
+        <div class="brand">
+          Powered by NFC Brelot • Jewel Art
+          <br />
+          <a href="https://www.instagram.com/lazaros_jewelart?utm_source=qr&igsh=M21zdWRva2puN3Rz" rel="noopener">
+            @lazaros_jewelart
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>
