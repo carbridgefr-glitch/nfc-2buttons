@@ -91,16 +91,28 @@
       font-size: 0.72rem;
       color: #777;
       line-height: 1.6;
+      text-align: center;
     }
 
-    .footer a {
-      color: #777;
+    .footer-brand {
+      margin-bottom: 10px;
+    }
+
+    .footer-link {
+      display: inline-block;
       text-decoration: none;
-      word-break: break-word;
+      color: #666;
+      border: 1px solid #d8d8d8;
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
     }
 
-    .footer a:hover {
-      text-decoration: underline;
+    .footer-link:hover {
+      background: #f3f3f3;
+      color: #111;
+      border-color: #c8c8c8;
     }
 
     @media (max-width: 380px) {
@@ -141,10 +153,9 @@
     </a>
 
     <div class="footer">
-      Powered by NFC Μπρελόκ • Jewel Art<br />
-      Instagram:<br />
-      <a href="https://www.instagram.com/lazaros_jewelart">
-        https://www.instagram.com/lazaros_jewelart
+      <div class="footer-brand">Powered by NFC Μπρελόκ • Jewel Art</div>
+      <a class="footer-link" href="https://www.instagram.com/lazaros_jewelart">
+        Δείτε τον δημιουργό
       </a>
     </div>
   </div>
